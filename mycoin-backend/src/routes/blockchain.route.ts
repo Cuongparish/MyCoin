@@ -8,6 +8,8 @@ router.get("/latest", asyncRouteHandler(BlockchainController.getLatestBlock));
 
 router.get("/:blockHash", asyncRouteHandler(BlockchainController.getBlockDetail));
 
+router.get("/:contract", asyncRouteHandler(BlockchainController.getBlockDetail));
+
 router.get("/", asyncRouteHandler(BlockchainController.getBlockChainInformation));
 
 router.post("/mining", asyncRouteHandler(BlockchainController.mineBlock));

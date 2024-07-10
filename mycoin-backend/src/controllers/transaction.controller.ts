@@ -66,6 +66,14 @@ export function getTransactionDetails(req: Request, res: Response) {
                 amount: receiver?.amount,
             }),
         );
+        console.log(`hash: poolTx.id,
+                blockId: null,
+                status: "pending",
+                createdAt: poolTx.timestamp,
+                blockCreatedAt: null,
+                from: poolTx.owner,
+                to: receiver?.address,
+                amount: receiver?.amount`);
         return;
     }
 
@@ -116,6 +124,15 @@ export function createTransactionMiner(req: Request, res: Response) {
     if (!address || !address.trim()) {
         throw new BadRequestException(400, "Invalid wallet address");
     }
+
+    console.log(`hash: poolTx.id,
+        blockId: null,
+        status: "pending",
+        createdAt: poolTx.timestamp,
+        blockCreatedAt: null,
+        from: poolTx.owner,
+        to: receiver?.address,
+        amount: receiver?.amount`);
 
     const poolInst = TransactionPool.getInstance();
 

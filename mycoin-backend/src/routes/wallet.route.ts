@@ -10,4 +10,6 @@ router.get("/keystore", asyncRouteHandler(WalletController.sendKeyStore));
 
 router.get("/:address/balance", asyncRouteHandler(WalletController.getUserbalance));
 
+router.get("/blanceCons", asyncRouteHandler(WalletController.getUserbalance));
+
 router.get("/:address/unspent-txs", asyncRouteHandler(WalletController.getUserUnspentTransactionOutput));

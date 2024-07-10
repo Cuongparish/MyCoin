@@ -19,6 +19,10 @@ export function getAllSocketPoolItem() {
     return sockets;
 }
 
+export function getAllPoolItem() {
+    return sockets;
+}
+
 export function getAllSocket() {
     return getAllSocketPoolItem().map((s) => s.socket);
 }
@@ -55,7 +59,7 @@ function initMessageHandler(ws: WebSocket) {
                     break;
             }
         } catch (e) {
-            Logger.error("-------- Listening message error")
+            Logger.error("-------- Listening message error");
             Logger.error(e);
         }
     });
