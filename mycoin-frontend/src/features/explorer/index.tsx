@@ -24,7 +24,7 @@ export function ExplorerFeature(_props: IExplorerFeatureProps) {
                                 <img className="" src="/images/digital_wallet.jpg" alt="app-logo" loading="lazy" />
                             </div>
 
-                            <h1 className="mb-0 ms-2 fs-4 text-white">TECO Explorer</h1>
+                            <h1 className="mb-0 ms-2 fs-4 text-white">MEW Explorer</h1>
                         </Stack>
                     </Navbar.Brand>
 

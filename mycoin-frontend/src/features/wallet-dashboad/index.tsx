@@ -26,7 +26,7 @@ export function WalletDashboadFeature(_props: IWalletDashboadFeatureProps) {
                             />
                         </div>
 
-                        <h1 className="mb-0 ms-2 fs-3 text-white">TECO WALLET</h1>
+                        <h1 className="mb-0 ms-2 fs-3 text-white">MEW WALLET</h1>
                     </Stack>
 
                     <Sidebar />

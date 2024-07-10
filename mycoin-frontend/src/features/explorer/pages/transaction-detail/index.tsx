@@ -115,7 +115,17 @@ export function TransactionDetailPage(_props: ITransactionDetailPageProps) {
                         <Stack className="p-3 rounded" style={{ backgroundColor: "#F3F5F9" }}>
                             <p className="fs-5 text-dark">Amount</p>
 
-                            <p className="">{tx.amount} TECO</p>
+                            <p className="">{tx.amount}</p>
+                        </Stack>
+                    </Col>
+
+                    <Col lg={{ span: 6, offset: 4 }} className="mb-3">
+                        <Stack className="p-3 rounded" style={{ backgroundColor: "#F3F5F9" }}>
+                            <p className="fs-5 text-dark">Signature</p>
+
+                            <p className="text-primary">
+                                064fcab8722991ae774db48f934ca79cfb7dd991229153b9f732ba5334aafcd8e7266e47076996b55a14bf9913ee3145ce0cfc1372ada8ada74bd287450313534a
+                            </p>
                         </Stack>
                     </Col>
                 </Row>
