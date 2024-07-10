@@ -17,7 +17,6 @@ export function mineBlock(_req: Request, res: Response) {
     if (!block) {
         throw new BadRequestException(400, "Fail to add new block to chain, please try again");
     }
-    console.log(1);
 
     res.json(new DataResponse(block).toJSON());
 
