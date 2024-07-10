@@ -29,7 +29,7 @@ export function initMinerKeyStore(): void {
     });
 
     const keystoreData = CryptoJS.AES.encrypt(dataToSign, APP_CONFIG.minerKeystorePassword).toString();
-    fs.writeFileSync(APP_CONFIG.minerKeystoreLocation, JSON.stringify({key: keystoreData}));
+    fs.writeFileSync(APP_CONFIG.minerKeystoreLocation, JSON.stringify({ key: keystoreData }));
     Logger.info(`Miner keystore file was generated and stored at ${APP_CONFIG.minerKeystoreLocation}`);
 }
 

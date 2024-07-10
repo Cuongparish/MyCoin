@@ -66,4 +66,5 @@ curl --location 'http://localhost:5000/peers' \
 
 ## References
 
--   https://github.com/lhartikk/naivecoin
+-   The interface and process are similar to https://www.myetherwallet.com/wallet/create
+-   View transaction history (build similar to https://etherscan.io/)
