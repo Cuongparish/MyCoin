@@ -4,7 +4,7 @@ import { router as transactionRouter } from "./transaction.route";
 import { router as walletRouter } from "./wallet.route";
 
 export const AppControllers = [
-    { path: "/blocks", handler: blockchainRouters },
+    { path: "/blocks", handler: blockchainRouter },
     { path: "/peers", handler: peerRouter },
     { path: "/wallet", handler: walletRouter },
     { path: "/transactions", handler: transactionRouter },
