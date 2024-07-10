@@ -19,10 +19,6 @@ export function getAllSocketPoolItem() {
     return sockets;
 }
 
-export function getAllPoolItem() {
-    return sockets;
-}
-
 export function getAllSocket() {
     return getAllSocketPoolItem().map((s) => s.socket);
 }
