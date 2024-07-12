@@ -7,7 +7,7 @@ This project is an individual assignment of a course in the University of Scienc
 
 ## App Demo
 
-- coming soon
+- [BTCN phần ứng dụng BlockChain](https://youtu.be/LrjbTd40IZQ)
 
 ## Usage
 The ``README.md`` files in the mycoin-frontend and mycoin-backend folders contain instructions on how to install the packages and run the project. Please open each folder to view the instructions.
