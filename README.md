@@ -1,5 +1,13 @@
 # MyCoin
 
+## Owner information
+
+- University: University of Science - VNUHCM
+
+| Student Name     | Student ID | Email                         |
+| ---------------- | ---------- | ----------------------------- |
+| Trịnh Quốc Cường | 20120447   | 20120447@student.hcmus.edu.vn |
+
 ## Introduction
 This project simulates the activities of a cryto-coin called MyCoin on a blockchain.
 
